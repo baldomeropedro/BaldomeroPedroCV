@@ -1,4 +1,4 @@
-name: BaldomeroPed
+name: BaldomeroPedroCV
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
 
       - name: Render CV
         run: |
-          rendercv render BaldomeroPedroCV.yaml
+          rendercv BaldomeroPedroCV.yaml
 
       - name: Upload PDF
         uses: actions/upload-artifact@v4
