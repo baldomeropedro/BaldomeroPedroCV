@@ -24,10 +24,10 @@ jobs:
 
       - name: Render CV
         run: |
-          rendercv BaldomeroPedroCV.yaml
+          rendercv render BaldomeroPedroCV.yaml
 
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
           name: CV
-          path: BaldomeroPedroCV.pdf
+          path: output/*.pdf
