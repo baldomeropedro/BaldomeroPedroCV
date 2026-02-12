@@ -64,7 +64,7 @@ cv:
 
       - label: Technical Skills
         details: Windows Server, Active Directory, Office 365, TCP/IP Networking, Hardware & Software
-   
-   design:
+
+design:
        theme: classic
       page_size: letter
