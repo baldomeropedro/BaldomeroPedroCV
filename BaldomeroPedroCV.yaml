@@ -1,0 +1,66 @@
+cv:
+  name: Baldomero Pedro
+  location: Reynosa, Tamaulipas, Mexico
+  email: Baldomeropedro@outlook.com
+  phone: +52 8993274267
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: baldomero-pedro
+
+  sections:
+    Profile:
+      - IT Technician with solid experience in technical support and network troubleshooting within manufacturing environments. Proficient in process optimization and data analysis, with strong knowledge of Windows Server, Active Directory, Office 365, TCP/IP networking, and hardware/software diagnostics. Committed to continuous learning and delivering reliable, efficient technological solutions aligned with business needs.
+
+    education:
+      - institution: Universidad Tamaulipeca
+        area: Business Administration and Finance
+        degree: Bachelor
+        start_date: 2017
+        end_date: 2020
+        location: Reynosa, Tamaulipas, Mexico
+
+    experience:
+      - company: Corning Optical Communications
+        position: IT Technician
+        start_date: 2018-01
+        end_date: present
+        location: Reynosa, Tamaulipas, Mexico
+        summary: Key Responsibilities
+        highlights:
+          - Provide technical support to manufacturing operations and daily business activities.
+          - Act as backup for the IT Site Leader when required.
+          - Support IT service delivery, infrastructure projects, and business-related technology initiatives.
+          - Maintain and troubleshoot infrastructure including computers, printers, switches, servers, and security systems.
+          - Collaborate with Corning global IT teams to resolve complex technical issues.
+          - Communicate infrastructure requirements and technical risks to site leadership.
+          - Serve as liaison between technical teams and business users.
+          - Contribute to small IT projects and routine technical task completion.
+
+      - company: AG86 Media Solutions
+        position: Administrative Assistant
+        start_date: 2019-09
+        end_date: 2021-02
+        location: Reynosa, Tamaulipas, Mexico
+        summary: Key Responsibilities
+        highlights:
+          - Managed calls, emails, and internal communications.
+          - Scheduled meetings, appointments, and business events.
+          - Prepared reports, documents, and presentations.
+          - Coordinated director’s agenda and daily administrative activities.
+          - Performed basic accounting tasks and expense tracking.
+
+    projects:
+      - name: SLA Metrics Hub – ServiceNow Dashboard
+        summary: Centralized dashboard for monitoring tasks and incidents within the ServiceNow platform, transforming raw ticket data into actionable insights for operational decision-making.
+        highlights:
+          - Centralized monitoring across the Reynosa campus.
+          - Real-time data visualization through interactive dashboards.
+          - Improved visibility of SLA compliance and incident trends.
+
+    skills:
+      - label: Data Analytics
+        details: Strong analytical skills with experience transforming raw data into actionable insights using Power BI and SQL Server Management Studio. Ability to interpret data patterns, support process improvements, and communicate findings clearly.
+
+      - label: Technical Skills
+        details: Windows Server, Active Directory, Office 365, TCP/IP Networking, Hardware & Software
