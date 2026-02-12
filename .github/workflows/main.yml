@@ -1,0 +1,33 @@
+name: BaldomeroPedroCV
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install RenderCV
+        run: |
+          pip install rendercv
+
+      - name: Render CV
+        run: |
+          rendercv render BaldomeroPedroCV.yaml
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: CV
+          path: output/*.pdf
