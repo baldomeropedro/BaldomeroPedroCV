@@ -26,6 +26,10 @@ jobs:
         run: |
           rendercv render BaldomeroPedroCV.yaml
 
+      - name: List files
+        run: |
+          ls -R
+          
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
