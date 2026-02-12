@@ -67,4 +67,6 @@ cv:
 
 design:
   theme: classic
+
+typography:
   font_size: 9pt
