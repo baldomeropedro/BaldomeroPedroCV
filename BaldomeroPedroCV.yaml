@@ -1,5 +1,5 @@
 cv:
-  name: Baldomero Pedrooo
+  name: Baldomero Pedroo
   location: Reynosa, Tamaulipas, Mexico
   email: Baldomeropedro@outlook.com
   phone: +52 8993274267
@@ -70,3 +70,4 @@ design:
 
 typography:
   font_size: 9pt
+  scale: 0.95
